@@ -3,7 +3,7 @@ import type { Config, Environment } from "./types";
 export const getEnvironmentConfig = (env: Environment): Config => {
 	const configs: Record<Environment, Config> = {
 		development: {
-			urlApi: "http://localhost:8080",
+			urlApi: "https://api.platform.opentargets.org/api/v4/graphql",
 			urlAiApi: "http://localhost:8081",
 			profile: {},
 			googleTagManagerID: null,

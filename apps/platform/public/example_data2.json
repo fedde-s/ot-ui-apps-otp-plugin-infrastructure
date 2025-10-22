@@ -1,0 +1,5 @@
+{"gene_id":"ENSG00000123415","target_gene":"ENSG00000299810","tissue":"Liver","correlation":0.8124,"p_value":0.0000124,"samples":312}
+{"gene_id":"ENSG00000123415","target_gene":"ENSG00000299811","tissue":"Liver","correlation":0.6783,"p_value":0.000582,"samples":312}
+{"gene_id":"ENSG00000123415","target_gene":"ENSG00000299812","tissue":"Liver","correlation":0.5731,"p_value":0.00248,"samples":312}
+{"gene_id":"ENSG00000123415","target_gene":"ENSG00000299813","tissue":"Liver","correlation":0.4998,"p_value":0.00735,"samples":312}
+{"gene_id":"ENSG00000123415","target_gene":"ENSG00000299814","tissue":"Liver","correlation":0.3922,"p_value":0.0189,"samples":312}

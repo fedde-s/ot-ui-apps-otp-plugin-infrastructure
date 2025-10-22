@@ -1,0 +1,5 @@
+{"experiment_id":"exp-9001","stimulus":"Visual light pattern","region":"Occipital cortex","activation_level":0.873,"baseline":0.342,"delta":0.531,"p_value":0.0000213,"subject_count":24}
+{"experiment_id":"exp-9001","stimulus":"Visual light pattern","region":"Prefrontal cortex","activation_level":0.651,"baseline":0.410,"delta":0.241,"p_value":0.01243,"subject_count":24}
+{"experiment_id":"exp-9001","stimulus":"Visual light pattern","region":"Amygdala","activation_level":0.412,"baseline":0.365,"delta":0.047,"p_value":0.305,"subject_count":24}
+{"experiment_id":"exp-9001","stimulus":"Visual light pattern","region":"Hippocampus","activation_level":0.729,"baseline":0.422,"delta":0.307,"p_value":0.00431,"subject_count":24}
+{"experiment_id":"exp-9001","stimulus":"Visual light pattern","region":"Thalamus","activation_level":0.558,"baseline":0.390,"delta":0.168,"p_value":0.0382,"subject_count":24}

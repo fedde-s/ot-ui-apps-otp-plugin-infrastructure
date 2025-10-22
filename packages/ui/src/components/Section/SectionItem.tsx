@@ -11,6 +11,7 @@ import SectionViewToggle from "./SectionViewToggle";
 import { ReactNode, useEffect, useState } from "react";
 import { VIEW } from "@ot/constants";
 import { SummaryLoader } from "../PublicationsDrawer";
+import { overideTheme } from "../../providers/ThemeProvider/OverideTheme";
 
 type definitionType = {
   id: string;
@@ -146,4 +147,4 @@ function SectionItem({
   );
 }
 
-export default SectionItem;
+export default overideTheme(SectionItem, props => props.definition.isPlugin);

@@ -1,0 +1,5 @@
+{"patient_id":"P001","visit_date":"2025-03-12","biomarker":"Glucose","value_mmol_L":5.2,"reference_range":"3.9–5.5","flag":"normal"}
+{"patient_id":"P002","visit_date":"2025-03-12","biomarker":"Glucose","value_mmol_L":7.1,"reference_range":"3.9–5.5","flag":"high"}
+{"patient_id":"P003","visit_date":"2025-03-12","biomarker":"Glucose","value_mmol_L":4.4,"reference_range":"3.9–5.5","flag":"normal"}
+{"patient_id":"P004","visit_date":"2025-03-12","biomarker":"Glucose","value_mmol_L":6.0,"reference_range":"3.9–5.5","flag":"slightly high"}
+{"patient_id":"P005","visit_date":"2025-03-12","biomarker":"Glucose","value_mmol_L":3.6,"reference_range":"3.9–5.5","flag":"low"}

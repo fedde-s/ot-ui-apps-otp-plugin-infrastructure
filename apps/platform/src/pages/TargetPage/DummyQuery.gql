@@ -1,0 +1,11 @@
+query DummyQuery($ensemblId: String!) {
+  meta {
+    targetPlugins(ensemblId: $ensemblId) {
+        id
+        data
+        Title
+        Acronym
+        Description
+    }
+  }
+}

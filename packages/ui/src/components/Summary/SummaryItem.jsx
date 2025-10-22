@@ -13,6 +13,7 @@ import { scroller } from "react-scroll";
 import summaryStyles from "./summaryStyles";
 import { createShortName } from "./utils";
 import PartnerLockIcon from "../PartnerLockIcon";
+import { overideTheme } from "../../providers/ThemeProvider/OverideTheme";
 
 function SummaryItem({ definition, request, subText }) {
   const classes = summaryStyles();
@@ -95,4 +96,4 @@ function SummaryItem({ definition, request, subText }) {
   );
 }
 
-export default SummaryItem;
+export default overideTheme(SummaryItem, props => props.definition.isPlugin);

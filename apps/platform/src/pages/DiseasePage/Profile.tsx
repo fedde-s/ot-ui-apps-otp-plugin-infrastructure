@@ -20,7 +20,14 @@ const diseaseProfileWidgets = new Map<string, Widget>([
   [Disease.Bibliography.definition.id, Disease.Bibliography],
 ]);
 
-const DISEASE_WIDGETS = Array.from(diseaseProfileWidgets.values());
+  const DISEASE_WIDGETS = Array.from(diseaseProfileWidgets.values());
+  const DISEASE_WIDGETS_WITH_INFO = Array.from(diseaseProfileWidgets.entries()).map(([key, widget]) => ({
+    data: '',
+    title: '',
+    acronym: '',
+    description: '',
+    widget,
+  }));
 
 const diseaseProfileWidgetsSummaries = Array.from(diseaseProfileWidgets.values()).map(
   widget => widget.Summary
@@ -58,11 +65,11 @@ function Profile({ efoId, name }: { efoId: string; name: string }) {
     >
       <ProfileHeader />
       <SummaryContainer>
-        <SummaryRenderer widgets={DISEASE_WIDGETS} />
+        <SummaryRenderer widgets={DISEASE_WIDGETS_WITH_INFO} />
       </SummaryContainer>
 
       <SectionContainer>
-        <SectionsRenderer id={efoId} label={name} entity={DISEASE} widgets={DISEASE_WIDGETS} />
+        <SectionsRenderer id={efoId} label={name} entity={DISEASE} widgets={DISEASE_WIDGETS_WITH_INFO} />
       </SectionContainer>
     </PlatformApiProvider>
   );

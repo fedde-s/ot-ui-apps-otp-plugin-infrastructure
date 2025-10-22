@@ -1,0 +1,5 @@
+{"model_id":"ml-045","dataset":"clinical_v2","algorithm":"RandomForest","accuracy":0.874,"f1_score":0.859,"roc_auc":0.911,"timestamp":"2025-10-20T09:14:33Z"}
+{"model_id":"ml-046","dataset":"clinical_v2","algorithm":"XGBoost","accuracy":0.886,"f1_score":0.871,"roc_auc":0.924,"timestamp":"2025-10-20T09:14:33Z"}
+{"model_id":"ml-047","dataset":"clinical_v2","algorithm":"LightGBM","accuracy":0.882,"f1_score":0.868,"roc_auc":0.920,"timestamp":"2025-10-20T09:14:33Z"}
+{"model_id":"ml-048","dataset":"clinical_v2","algorithm":"SVM","accuracy":0.841,"f1_score":0.833,"roc_auc":0.879,"timestamp":"2025-10-20T09:14:33Z"}
+{"model_id":"ml-049","dataset":"clinical_v2","algorithm":"NeuralNet","accuracy":0.890,"f1_score":0.876,"roc_auc":0.927,"timestamp":"2025-10-20T09:14:33Z"}

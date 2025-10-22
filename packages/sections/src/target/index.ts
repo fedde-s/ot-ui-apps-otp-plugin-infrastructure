@@ -17,3 +17,4 @@ export * as QTLCredibleSets from "./QTLCredibleSets";
 export * as Safety from "./Safety";
 export * as SubcellularLocation from "./SubcellularLocation";
 export * as Tractability from "./Tractability";
+export * as PluginData from "./PluginData";

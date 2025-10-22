@@ -1,0 +1,5 @@
+{"sample_id":"GM001","species":"Bacteroides vulgatus","relative_abundance":0.143,"metabolite":"Butyrate","metabolite_concentration_mM":2.81,"correlation":0.672,"p_value":0.00083,"diet_group":"High-fiber"}
+{"sample_id":"GM002","species":"Faecalibacterium prausnitzii","relative_abundance":0.212,"metabolite":"Propionate","metabolite_concentration_mM":1.47,"correlation":0.583,"p_value":0.00492,"diet_group":"High-fiber"}
+{"sample_id":"GM003","species":"Akkermansia muciniphila","relative_abundance":0.098,"metabolite":"Acetate","metabolite_concentration_mM":3.62,"correlation":0.721,"p_value":0.00021,"diet_group":"Low-fat"}
+{"sample_id":"GM004","species":"Ruminococcus bromii","relative_abundance":0.186,"metabolite":"Lactate","metabolite_concentration_mM":1.05,"correlation":0.392,"p_value":0.0374,"diet_group":"High-carb"}
+{"sample_id":"GM005","species":"Bifidobacterium longum","relative_abundance":0.154,"metabolite":"Succinate","metabolite_concentration_mM":2.34,"correlation":0.612,"p_value":0.00219,"diet_group":"High-fiber"}
